@@ -5,8 +5,6 @@
 // Extract the required classes from the discord.js module
 const { Client, MessageEmbed } = require('discord.js');
 
-const TOKEN = 'Njg0NTMxMjA4NTQxMDQ0NzQz.Xl_CGg.gIARhVKKwDEOzPUHfRMMMNo11cY';
-
 // Create an instance of a Discord client
 const client = new Client();
 
@@ -95,4 +93,4 @@ client.on('message', message => {
   
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login(TOKEN);
+client.login(procces.env.token);
