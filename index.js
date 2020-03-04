@@ -4,6 +4,7 @@
 
 // Extract the required classes from the discord.js module
 const { Client, MessageEmbed } = require('discord.js');
+const token = procces.env.arcadia
 
 // Create an instance of a Discord client
 const client = new Client();
